@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>To Taste</title>
+<meta name="theme-color" content="#11171b">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<style>:root { --bg: #11171b; }
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100dvh; display: grid; place-content: center; gap: 20px; padding: 24px 16px;
+    background: var(--bg); color: #f0f4f1; font: 400 17px/1.45 Roboto, "Segoe UI", sans-serif; text-align: center; }
+  img { width: 128px; height: 128px; border-radius: 28%; margin: 0 auto; display: block; }
+  h1 { margin: 0; font-size: 26px; }
+  ol { margin: 0 auto; padding-left: 22px; max-width: 320px; text-align: left; }
+  a { color: inherit; font-weight: 600; }
+  ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 20px; }
+  .launching body > * { display: none; }
+</style>
+<script>
+  // Only the installed icon opens with ?launch. In a normal tab the page has to stay put so Chrome can offer to install it.
+  if (new URLSearchParams(location.search).has("launch")) {
+    document.documentElement.classList.add("launching");
+    location.replace("https://claude.ai/artifact/3ggfiBGy5PaPKESt3pGzxh");
+  }
+</script>
+</head>
+<body>
+  <img src="icon-512.png" alt="">
+  <h1>To Taste</h1>
+  <ol>
+    <li>Tap Chrome's <b>⋮</b> menu.</li>
+    <li>Tap <b>Add to Home screen</b>, then <b>Install</b>.</li>
+    <li>Remove your old To Taste shortcut.</li>
+  </ol>
+  <a href="https://claude.ai/artifact/3ggfiBGy5PaPKESt3pGzxh">Open To Taste</a>
+</body>
+</html>
