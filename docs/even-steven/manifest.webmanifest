@@ -1,6 +1,6 @@
 {
-  "name": "Even Steven",
-  "short_name": "Even Steven",
+  "name": "Split Second",
+  "short_name": "Split Second",
   "start_url": "./?launch",
   "scope": "./",
   "display": "standalone",
