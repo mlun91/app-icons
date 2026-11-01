@@ -1,6 +1,6 @@
 {
-  "name": "To Taste",
-  "short_name": "To Taste",
+  "name": "Secret Sauce",
+  "short_name": "Secret Sauce",
   "start_url": "./?launch",
   "scope": "./",
   "display": "standalone",
