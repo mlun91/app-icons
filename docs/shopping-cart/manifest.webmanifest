@@ -1,7 +1,7 @@
 {
   "name": "Shopping Cart",
   "short_name": "Shopping Cart",
-  "start_url": "./?launch",
+  "start_url": "./?launch&install=2",
   "scope": "./",
   "display": "standalone",
   "background_color": "#0b0b0f",

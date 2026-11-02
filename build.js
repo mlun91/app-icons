@@ -55,7 +55,8 @@ const launcherPage = app => `<!doctype html>
 const manifest = app => JSON.stringify({
   name: app.name,
   short_name: app.name,
-  start_url: "./?launch",
+  // Bumping an app's "install" number in apps.json lets Chrome install it again after it has lost track of an old copy.
+  start_url: app.install ? `./?launch&install=${app.install}` : "./?launch",
   scope: "./",
   display: "standalone",
   background_color: app.color,
