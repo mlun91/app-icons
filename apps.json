@@ -10,5 +10,11 @@
     "name": "Secret Sauce",
     "url": "https://claude.ai/artifact/3ggfiBGy5PaPKESt3pGzxh",
     "color": "#11171b"
+  },
+  {
+    "slug": "shopping-cart",
+    "name": "Shopping Cart",
+    "url": "https://claude.ai/artifact/RytRYs3ev94hZMAUCs6X3X",
+    "color": "#0a0728"
   }
 ]
